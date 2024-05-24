@@ -10,6 +10,14 @@ public class Test {
 		System.out.println(3);
 		System.out.println(358);
 		System.out.println(50000);
+		
+		// This is a comment
+		System.out.println("Hello World");
+		
+		/* The code below will print the words Hello World
+		to the screen, and it is amazing */
+		System.out.println("Hello World");
 	}
+	
 
 }
