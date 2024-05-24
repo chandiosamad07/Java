@@ -17,6 +17,21 @@ public class Test {
 		/* The code below will print the words Hello World
 		to the screen, and it is amazing */
 		System.out.println("Hello World");
+		
+		String name = "John";
+		System.out.println(name);
+
+//		int myNum;
+//		myNum = 15;
+//		System.out.println(myNum);
+		
+		int myNum = 5;
+		float myFloatNum = 5.99f;
+		char myLetter = 'D';
+		boolean myBool = true;
+		String myText = "Hello";
+		
+		System.out.println(myNum+" "+myFloatNum+" "+myLetter +" "+myBool +" "+myText);
 	}
 	
 
