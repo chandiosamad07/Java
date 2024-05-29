@@ -6,6 +6,7 @@ public class Test {
 		// TODO Auto-generated method stub
 		First obj = new First();
 		System.out.println(obj.a);
+		obj.sum(10, 12);
 	}
 
 }
