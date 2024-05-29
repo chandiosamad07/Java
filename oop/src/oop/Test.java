@@ -12,6 +12,14 @@ public class Test {
 		Person myObj = new Person();
 	    myObj.setName("John"); // Set the value of the name variable to "John"
 	    System.out.println(myObj.getName());
+	    
+	    //Poli
+	    Animal myPig = new Pig();
+	    Animal myDog = new Dog();
+	    Animal myAnimal = new Animal();
+	    myAnimal.animalSound();
+	    myPig.animalSound();
+	    myDog.animalSound();
 	}
 
 }
