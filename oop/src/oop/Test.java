@@ -20,6 +20,10 @@ public class Test {
 	    myAnimal.animalSound();
 	    myPig.animalSound();
 	    myDog.animalSound();
+//	    
+	    Pig1 Pig1 = new Pig1(); // Create a Pig object
+	    Pig1.animalSound();
+	    Pig1.sleep();
 	}
 
 }
