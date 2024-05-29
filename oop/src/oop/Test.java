@@ -20,10 +20,13 @@ public class Test {
 	    myAnimal.animalSound();
 	    myPig.animalSound();
 	    myDog.animalSound();
-//	    
+//	    abstract
 	    Pig1 Pig1 = new Pig1(); // Create a Pig object
 	    Pig1.animalSound();
 	    Pig1.sleep();
+	    Pig2 myPig2 = new Pig2();  // Create a Pig object
+	    myPig2.animalSound();
+	    myPig2.sleep();
 	}
 
 }
