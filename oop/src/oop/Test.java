@@ -7,6 +7,11 @@ public class Test {
 		First obj = new First();
 		System.out.println(obj.a);
 		obj.sum(10, 12);
+		
+		//Encapsulation
+		Person myObj = new Person();
+	    myObj.setName("John"); // Set the value of the name variable to "John"
+	    System.out.println(myObj.getName());
 	}
 
 }
